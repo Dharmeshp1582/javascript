@@ -1,0 +1,22 @@
+#heading{
+    color:black;
+    text-decoration: solid;
+    background-color: burlywood;
+    
+}
+
+#heading2{
+    color: aqua;
+    background-color: blue;
+}
+
+body {
+    color: black;
+    background-color: orange;
+    text-decoration: solid;
+}           
+
+button{ 
+    background-color:white;
+    color: black;
+}
