@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIMEGREAT</title>
+</head>
+<body onload="Greetmsg()">
+    <script type="text/javascript">
+        function Greetmsg(){
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();       
+            if(h < 10)
+            alert("good morning!..(Time"+h+" : " +m+" : " +s+")");
+            else
+        alert("good day!..(Time"+h+" : " +m+" : " +s+")");
+            }
+            </script>
+</body>
+</html>
